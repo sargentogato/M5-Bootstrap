@@ -1,0 +1,35 @@
+nav {
+  // mobile / tablet < 1200px
+  .form-inline {
+    display: none;
+
+    // 1200px
+    @media (min-width: 1200px) {
+      display: block;
+    }
+  }
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.carousel-inner {
+  .carousel-item {
+    width: 100%;
+    height: calc(100vh - 4.45rem);
+  }
+}
+
+/** ============================================ 1200px ============================================ */
+.container-fluid {
+  .registerLogin {
+    display: flex;
+    justify-content: center;
+
+    @media (min-width: 1200px) {
+      display: none;
+    }
+  }
+}

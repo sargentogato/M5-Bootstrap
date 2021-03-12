@@ -1,0 +1,12 @@
+.containerBox {
+  display: flex;
+}
+.containerBox .box1,
+.containerBox .box2 {
+  flex-basis: 50%;
+}
+
+p {
+  font-size: 3em;
+  font-weight: 900;
+}/*# sourceMappingURL=style.css.map */

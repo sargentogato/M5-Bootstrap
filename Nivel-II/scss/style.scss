@@ -1,0 +1,13 @@
+.containerBox {
+  display: flex;
+
+  .box1,
+  .box2 {
+    flex-basis: 50%;
+  }
+}
+
+p {
+  font-size: 3em;
+  font-weight: 900;
+}
